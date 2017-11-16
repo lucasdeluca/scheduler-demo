@@ -20,35 +20,35 @@ int main() {
 		flag = 1;
 		posicao[0] = 0;	
 	}
-	posicao[0]++;
+	posicao[0] = posicao[0] + 1;
 
 	if (a[1] == posicao[1]){
 		printf("1");
 		flag = 1;
 		posicao[1] = 0;	
 	}
-	posicao[1]++;
+	posicao[1] = posicao[1] + 1;
 
 	if (a[2] == posicao[2]){
 		printf("2");
 		flag = 1;
 		posicao[2] = 0;	
 	}
-	posicao[2]++;
+	posicao[2] = posicao[2] + 1;
 
 	if (a[3] == posicao[3]){
 		printf("3");
 		flag = 1;
 		posicao[3] = 0;	
 	}
-	posicao[3]++;
+	posicao[3] = posicao[3] + 1;
 
 	if (a[4] == posicao[4]){
 		printf("4");
 		flag = 1;
 		posicao[4] = 0;	
 	}
-	posicao[4]++;
+	posicao[4] = posicao[4] + 1;
 
 	if (flag == 0){
 		printf("-");	
